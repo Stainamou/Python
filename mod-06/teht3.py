@@ -7,7 +7,7 @@
 
 def bensiini(gallon):
     litraa_per_gallon = gallon * 3.785
-    print(gallon, "gallonia on", litraa_per_gallon, "litraa")
+    print(f"{gallon} gallonia bensiiniä on {litraa_per_gallon} litraa bensiiniä)
     return litraa_per_gallon
 
 gallon = int(input("Anna gallonamäärä: "))
