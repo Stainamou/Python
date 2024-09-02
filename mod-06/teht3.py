@@ -11,7 +11,7 @@ def bensiini(gallon):
     return litraa_per_gallon
 
 gallon = int(input("Anna gallonamäärä: "))
-print(bensiini(gallon))
+bensiini(gallon)
 
 
 
