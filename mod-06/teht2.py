@@ -1,4 +1,3 @@
-
 import random
 
 def noppa(tahkot):
