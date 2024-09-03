@@ -11,7 +11,11 @@ def bensiini(gallon):
     return litraa_per_gallon
 
 gallon = int(input("Anna gallonamäärä: "))
-bensiini(gallon)
 
+while gallon > 0:
+    bensiini(gallon)
+    break
+else:
+    print("Anna positiivinen luku")
 
 
