@@ -10,5 +10,5 @@ while nimi != "":
     nimi = input("Anna seuraava nimi: ")
 
 for nimi in nimet:
-    print(nimet)
+    print(nimi)
 
