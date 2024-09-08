@@ -9,5 +9,6 @@ while nimi != "":
         nimet.add(nimi)
     nimi = input("Anna seuraava nimi: ")
 
-print(nimet)
+for nimi in nimet:
+    print(nimet)
 
