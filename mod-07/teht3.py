@@ -8,7 +8,7 @@ while 1 <= haku <= 3:
        icao = input("Syötä ICAO-koodi: ").upper()
        nimi = input("Syötä lentoaseman nimi: ")
        lentoasemat[icao] = nimi
-       print(f"{nimi} lentoaseman ICAO-koodilla {icao} on tallennettu")
+       print(f"{nimi} lentoasema ICAO-koodilla {icao} on tallennettu")
 
     elif haku == 2:
         icao = input("Syötä ICAO-koodi: ").upper()
