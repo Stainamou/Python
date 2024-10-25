@@ -22,8 +22,8 @@ class Hissi:
 
 class Talo:
     def __init__(self, alin_kerros, ylin_kerros, hissien_lukumäärä):
-        self.alin_kerros_numero = alin_kerros
-        self.ylin_kerros_numero = ylin_kerros
+        self.alin_kerros = alin_kerros
+        self.ylin_kerros = ylin_kerros
         self.hissien_lukumäärä = hissien_lukumäärä
         self.hissit = []
 
