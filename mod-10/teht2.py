@@ -21,14 +21,14 @@ class Hissi:
             print(f"Hissi on kerroksesa: {self.nykyinen_kerros}")
 
 class Talo:
-    def __init__(self, alin_kerros_numero, ylin_kerros_numero, hissien_lukumäärä):
-        self.alin_kerros_numero = alin_kerros_numero
-        self.ylin_kerros_numero = ylin_kerros_numero
+    def __init__(self, alin_kerros, ylin_kerros, hissien_lukumäärä):
+        self.alin_kerros_numero = alin_kerros
+        self.ylin_kerros_numero = ylin_kerros
         self.hissien_lukumäärä = hissien_lukumäärä
         self.hissit = []
 
         for i in range(hissien_lukumäärä):
-            uusi_hissi = Hissi(alin_kerros_numero, ylin_kerros_numero)
+            uusi_hissi = Hissi(alin_kerros, ylin_kerros)
             self.hissit.append(uusi_hissi)
 
     def aja_hissiä(self, hissi_numero, kohdekerros):
